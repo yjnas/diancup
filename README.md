@@ -401,20 +401,6 @@ A: 支持60+种常见文本和代码文件：txt, md, json, xml, yaml, js, py, j
 
 </div>
 
----
-
-## ⭐ Star History
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yjnas/diancup&type=Date)](https://star-history.com/#yjnas/diancup&Date)
-
-</div>
-
-> 💡 **提示**：如果你觉得这个项目对你有帮助，欢迎给项目点个 Star ⭐，这是对作者最大的鼓励！
-
----
-
 ## 📄 许可证
 
 本项目为私有项目，未经授权不得用于商业用途。
