@@ -359,7 +359,7 @@ A: 支持60+种常见文本和代码文件：txt, md, json, xml, yaml, js, py, j
 
 如遇到BUG或有功能建议，欢迎通过以下方式反馈：
 
-- 📧 **QQ交流群**：[183678380](https://qm.qq.com/q/vPZ8xCGbVT)
+- 📧 **QQ交流群**：[183678380](https://qm.qq.com/q/MbzYnXdaa4)
 - 💬 **B站私信**：[@昱君NAS](https://space.bilibili.com/668023659)
 - 📝 **博客留言**：[wiki.929722.xyz](https://wiki.929722.xyz)
 
