@@ -412,8 +412,6 @@ A: 支持60+种常见文本和代码文件：txt, md, json, xml, yaml, js, py, j
 
 
 </div>
-## ⭐ Star History
-
 <div align="center">
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yjnas/diancup&type=Date)](https://star-history.com/#yjnas/diancup&Date)
