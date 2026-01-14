@@ -1,4 +1,4 @@
-# DIANCUP - Docker容器管理与自动更新系统
+# DIANCUP - Docker与主机管理面板
 
 <div align="center">
 
