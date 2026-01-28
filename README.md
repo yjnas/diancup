@@ -18,11 +18,12 @@
 
 ## 📖 项目介绍
 
-**DIANCUP** 是一款专为NAS用户和Docker爱好者精心打造的现代化容器管理平台。通过直观友好的Web界面，让您无需深入了解命令行操作也能轻松管理和维护Docker容器服务，为家庭服务器和小型办公环境提供企业级的管理体验。
+**DIANCUP** 是一款专为NAS用户和Docker爱好者精心打造的现代化容器，服务器管理平台。通过直观友好的Web界面，让您无需深入了解命令行操作也能轻松管理和维护Docker容器服务，为家庭服务器和小型办公环境提供企业级的管理体验。
 
 ### ✨ 核心亮点
 
 - 🚀 **智能自动更新** - 自动监控Docker Hub镜像更新，支持灵活的自动更新策略配置
+- 🚀 **多设备管理** - **无限制**管理N多设备 不再需要来回切换
 - 🖥️ **Web SSH终端** - 集成功能强大的Web终端，支持多标签页管理，随时随地管理服务器
 - 📊 **实时监控** - 全面的系统资源监控仪表盘，实时显示CPU、内存、磁盘、网络等关键指标
 - 📁 **文件管理** - 内置文件管理器，支持60+种文件格式在线编辑和预览
@@ -50,6 +51,9 @@
 ### SSH终端
 ![SSH终端](docs/screenshots/ssh.png)
 *多标签页Web终端，随时随地管理服务器*
+### 昱君探针
+![SSH终端](docs/screenshots/yjtz.png)
+*多服务器一键切换管理*
 
 ### 移动端适配
 <table>
@@ -120,7 +124,7 @@
 
 ### 安装部署
 
-#### 方式一：Docker Compose（推荐）
+#### 方式：Docker Compose（推荐）
 
 1. **创建项目目录**
 ```bash
@@ -143,7 +147,7 @@ services:
       - DOCKER_DIR=/your/docker/path  # 你的Docker配置目录（必须修改）
       - WEB_PORT=9527                 # Web服务端口（可选修改）
     labels:
-      - com.docker.updater.exclude=true #排除本项目自动更新（建议 非必须）
+      - diancup.self=true #必须，不可更改！
 ```
 
 > ⚠️ **重要**：请将 `DOCKER_DIR` 修改为你实际的Docker配置目录路径！
@@ -163,25 +167,6 @@ http://your-server-ip:9527
 
 > ⚠️ **安全提示**：首次登录后请立即修改默认密码！
 
-#### 方式二：Docker Run
-
-```bash
-docker run -d \
-  --name diancup \
-  --network host \
-  --privileged \
-  --restart always \
-  -v ./config:/config \
-  -v /:/host \
-  -e DOCKER_DIR=/your/docker/path \
-  -e WEB_PORT=9527 \
-  --label com.docker.updater.exclude=true \
-  yjnas/diancup:latest
-```
-
-> ⚠️ **重要**：请将 `/your/docker/path` 替换为你实际的Docker配置目录！
-
----
 
 ## ⚙️ 配置说明
 
