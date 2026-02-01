@@ -10,8 +10,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Private-red)](LICENSE)
 
-[功能特性](#功能特性) • [快速开始](#快速开始) • [配置说明](#配置说明) • [常见问题](#常见问题) • [联系方式](#联系方式)
-
 </div>
 
 ---
