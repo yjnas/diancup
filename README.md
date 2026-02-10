@@ -4,7 +4,7 @@
 
 ![DIANCUP](static/logo.png)
 
-**一款功能强大的Docker容器管理与自动更新系统**
+**一款功能强大的DIANCUP - 导航页.Docker容器与主机管理面板系统**
 
 [![Docker](https://img.shields.io/badge/Docker-Required-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
